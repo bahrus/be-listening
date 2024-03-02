@@ -23,7 +23,7 @@ we can do:
 <my-light-weight-container>
     <number-generator></number-generator>
     <metric-units 
-        enh-be-listening='to number-generator for value-changed event and copy value to property cm.'
+        enh-be-listening='to number-generator for value-changed event and copy value to cm.'
         enh-be-listening-config='{
             "skipInitialization": true,
             "nudge": true,
