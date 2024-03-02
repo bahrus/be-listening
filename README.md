@@ -24,9 +24,11 @@ we can do:
     <number-generator></number-generator>
     <metric-units 
         enh-be-listening='to number generator for value changed event and copy value to property cm.'
-        enh-be-listening-skip-initialization
-        enh-be-listening-do-nudge
-        enh-be-listening-fire=change
+        enh-be-listening-config='{
+            "skipInitialization": true,
+            "nudge": true,
+            "fire": "change"
+        }'
     >
     </metric-units>
 </my-light-weight-container
